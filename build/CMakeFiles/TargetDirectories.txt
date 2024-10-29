@@ -1,3 +1,3 @@
-/home/leedong/Desktop/cudaProject/cudaProject/build/CMakeFiles/cudaPrint.dir
+/home/leedong/Desktop/cudaProject/cudaProject/build/CMakeFiles/cudaPrint2.dir
 /home/leedong/Desktop/cudaProject/cudaProject/build/CMakeFiles/edit_cache.dir
 /home/leedong/Desktop/cudaProject/cudaProject/build/CMakeFiles/rebuild_cache.dir

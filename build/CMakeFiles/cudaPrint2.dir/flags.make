@@ -5,7 +5,7 @@
 # compile CXX with /bin/c++
 CUDA_DEFINES = 
 
-CUDA_INCLUDES = --options-file CMakeFiles/cudaPrint.dir/includes_CUDA.rsp
+CUDA_INCLUDES = --options-file CMakeFiles/cudaPrint2.dir/includes_CUDA.rsp
 
 CUDA_FLAGS = -O2 -g -DNDEBUG -std=c++11 --generate-code=arch=compute_52,code=[compute_52,sm_52] --generate-code=arch=compute_60,code=[compute_60,sm_60] --generate-code=arch=compute_61,code=[compute_61,sm_61] --generate-code=arch=compute_75,code=[compute_75,sm_75] --generate-code=arch=compute_86,code=[compute_86,sm_86]
 

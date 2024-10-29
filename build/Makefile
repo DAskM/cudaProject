@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cudaPrint
+# Target rules for targets named cudaPrint2
 
 # Build rule for target.
-cudaPrint: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cudaPrint
-.PHONY : cudaPrint
+cudaPrint2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cudaPrint2
+.PHONY : cudaPrint2
 
 # fast build rule for target.
-cudaPrint/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/build
-.PHONY : cudaPrint/fast
+cudaPrint2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/build
+.PHONY : cudaPrint2/fast
 
 src/cudaFFT4Pico.o: src/cudaFFT4Pico.cu.o
 .PHONY : src/cudaFFT4Pico.o
 
 # target to build an object file
 src/cudaFFT4Pico.cu.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/cudaFFT4Pico.cu.o
 .PHONY : src/cudaFFT4Pico.cu.o
 
 src/cudaFFT4Pico.i: src/cudaFFT4Pico.cu.i
@@ -142,7 +142,7 @@ src/cudaFFT4Pico.i: src/cudaFFT4Pico.cu.i
 
 # target to preprocess a source file
 src/cudaFFT4Pico.cu.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/cudaFFT4Pico.cu.i
 .PHONY : src/cudaFFT4Pico.cu.i
 
 src/cudaFFT4Pico.s: src/cudaFFT4Pico.cu.s
@@ -150,7 +150,7 @@ src/cudaFFT4Pico.s: src/cudaFFT4Pico.cu.s
 
 # target to generate assembly for a file
 src/cudaFFT4Pico.cu.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/cudaFFT4Pico.cu.s
 .PHONY : src/cudaFFT4Pico.cu.s
 
 src/gpuInfoPrint.o: src/gpuInfoPrint.cu.o
@@ -158,7 +158,7 @@ src/gpuInfoPrint.o: src/gpuInfoPrint.cu.o
 
 # target to build an object file
 src/gpuInfoPrint.cu.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/gpuInfoPrint.cu.o
 .PHONY : src/gpuInfoPrint.cu.o
 
 src/gpuInfoPrint.i: src/gpuInfoPrint.cu.i
@@ -166,7 +166,7 @@ src/gpuInfoPrint.i: src/gpuInfoPrint.cu.i
 
 # target to preprocess a source file
 src/gpuInfoPrint.cu.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/gpuInfoPrint.cu.i
 .PHONY : src/gpuInfoPrint.cu.i
 
 src/gpuInfoPrint.s: src/gpuInfoPrint.cu.s
@@ -174,7 +174,7 @@ src/gpuInfoPrint.s: src/gpuInfoPrint.cu.s
 
 # target to generate assembly for a file
 src/gpuInfoPrint.cu.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/gpuInfoPrint.cu.s
 .PHONY : src/gpuInfoPrint.cu.s
 
 src/main.o: src/main.cc.o
@@ -182,7 +182,7 @@ src/main.o: src/main.cc.o
 
 # target to build an object file
 src/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/main.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/main.cc.o
 .PHONY : src/main.cc.o
 
 src/main.i: src/main.cc.i
@@ -190,7 +190,7 @@ src/main.i: src/main.cc.i
 
 # target to preprocess a source file
 src/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/main.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/main.cc.i
 .PHONY : src/main.cc.i
 
 src/main.s: src/main.cc.s
@@ -198,7 +198,7 @@ src/main.s: src/main.cc.s
 
 # target to generate assembly for a file
 src/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint.dir/build.make CMakeFiles/cudaPrint.dir/src/main.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cudaPrint2.dir/build.make CMakeFiles/cudaPrint2.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cudaPrint"
+	@echo "... cudaPrint2"
 	@echo "... src/cudaFFT4Pico.o"
 	@echo "... src/cudaFFT4Pico.i"
 	@echo "... src/cudaFFT4Pico.s"

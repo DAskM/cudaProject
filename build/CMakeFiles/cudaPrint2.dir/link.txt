@@ -1,0 +1,1 @@
+/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cudaPrint2.dir/src/cudaFFT4Pico.cu.o CMakeFiles/cudaPrint2.dir/src/gpuInfoPrint.cu.o CMakeFiles/cudaPrint2.dir/src/main.cc.o -o /home/leedong/Desktop/cudaProject/cudaProject/bin/cudaPrint2   -L/usr/local/cuda/targets/x86_64-linux/lib/stubs  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

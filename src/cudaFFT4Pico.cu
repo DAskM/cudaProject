@@ -11,5 +11,5 @@
 #include "cudaFFT4Pico.cuh"
 
 void cudaFFT4PicoScenes(){
-
+    
 }

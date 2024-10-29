@@ -74,7 +74,7 @@ CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o: CMakeFiles/cudaPrint.dir/include
 CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o: /home/leedong/Desktop/cudaProject/cudaProject/src/cudaFFT4Pico.cu
 CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o: CMakeFiles/cudaPrint.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leedong/Desktop/cudaProject/cudaProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o -MF CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o.d -x cu -c /home/leedong/Desktop/cudaProject/cudaProject/src/cudaFFT4Pico.cu -o CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o -MF CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o.d -x cu -c /home/leedong/Desktop/cudaProject/cudaProject/src/cudaFFT4Pico.cu -o CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.o
 
 CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/cudaPrint.dir/src/cudaFFT4Pico.cu.i"
@@ -89,7 +89,7 @@ CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o: CMakeFiles/cudaPrint.dir/include
 CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o: /home/leedong/Desktop/cudaProject/cudaProject/src/gpuInfoPrint.cu
 CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o: CMakeFiles/cudaPrint.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leedong/Desktop/cudaProject/cudaProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o"
-	/usr/local/cuda-11.4/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o -MF CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o.d -x cu -c /home/leedong/Desktop/cudaProject/cudaProject/src/gpuInfoPrint.cu -o CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o -MF CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o.d -x cu -c /home/leedong/Desktop/cudaProject/cudaProject/src/gpuInfoPrint.cu -o CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.o
 
 CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/cudaPrint.dir/src/gpuInfoPrint.cu.i"
